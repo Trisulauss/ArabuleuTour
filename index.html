@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Navbar Starts-->
+
+    <nav class="navbar">
+      <h1 class="navbar-logo">Arabuleu<span>Tur</span></h1>
+
+      <ul class="navbar-links">
+        <li><a href="" class="active">Home</a></li>
+        <li><a href="">Tour</a></li>
+        <li><a href="">Explore</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="" class="button" id="contact">Contact us</a></li>
+      </ul>
+
+      <img src="/images/menu-btn.png" alt="" class="navbar-menu-btn" />
+    </nav>
+
+    <!--Navbar ends-->
+
+    <!--header Starts-->
+
+    <header class="header">
+      <div class="header-content">
+        <h2>Explore the Colorful World</h2>
+        <div class="line"></div>
+        <h1>Great Gift</h1>
+        <a href="" class="button">Learn more</a>
+      </div>
+    </header>
+
+    <!--header ends-->
+
+    <!--Upcoming Events Starts-->
+
+    <section class="events">
+      <div class="events-title">
+        <h1>Upcoming Events</h1>
+        <div class="line"></div>
+      </div>
+      <div class="events-row">
+        <div class="events-row-col">
+          <img src="/images/img1.png" alt="" />
+          <h4>Everest Camping</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam
+            dolores neque ea delectus iure vitae a provident voluptatibus.
+            Incidunt, cum!
+          </p>
+
+          <a href="" class="button">Learn more</a>
+        </div>
+
+        <div class="events-row-col">
+          <img src="/images/img2.png" alt="" />
+          <h4>Walking & Trekking Holiday</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam
+            dolores neque ea delectus iure vitae a provident voluptatibus.
+            Incidunt, cum!
+          </p>
+
+          <a href="" class="button">Learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <!--Upcoming Events Finish-->
+
+    <!--Explore Starts-->
+
+    <section class="explore">
+      <div class="explore-content">
+        <h1>Explore the World</h1>
+        <div class="line"></div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque hic
+          odit iste distinctio dolorum minima rerum nostrum iure repellat eos.
+        </p>
+        <a href="" class="button">Explore</a>
+      </div>
+    </section>
+
+    <!--Explore Finishes-->
+
+    <!--Upcoming Tours-->
+
+    <section class="tours">
+      <div class="tours-title">
+        <h1>Upcoming Tours and Events</h1>
+        <div class="line"></div>
+      </div>
+
+      <div class="tours-row">
+        <div class="tours-row-col">
+          <h4>Upcoming Tours</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+            accusamus ut aperiam qui distinctio excepturi cumque earum, sequi
+            perferendis vitae? accusamus ut aperiam qui distinctio excepturi cumque earum, sequi
+            perferendis vitae?ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+            accusamus ut aperiam qui distinctio excepturi cumque earum, sequi
+            perferendis vitae?periam qui distinctio excepturi cumque earum, sequi
+            perferendis vitae? accusamuaccusamus ut aperiam qui distinctio excepturi cumque earum, sequi
+            perferendis vitae? accusamus ut aperiam qui distinctio excepturi cumque earum, sequi
+            perferendis vitae?ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+            accusamus ut aperiam qui distin
+          </p>
+          <a href="" class="button">Learn More</a>
+        </div>
+
+        <div class="tours-row-col">
+          <div class="tours-row-col-gallery">
+            <img src="/images/img3.png" alt="" />
+            <img src="/images/img4.png" alt="" />
+            <img src="/images/img5.png" alt="" />
+            <img src="/images/img6.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Upcoming Tours Ends-->
+
+    <!--Footer Starts-->
+    <section class="footer">
+      <p>
+        123 Fifth Avenue, NY 10160,New York,USA | Phone : 555-555-555 | Email:
+        contact@example.com
+      </p>
+      <p>Copyright 2020 Outdoor Adventure</p>
+    </section>
+
+    <!--Footer Ends-->
+
+    <!--Script -->
+
+    <script>
+      const menuButton = document.querySelector(".navbar-menu-btn");
+      const navbarLinks = document.querySelector(".navbar-links");
+      menuButton.addEventListener("click", () => {
+        navbarLinks.classList.toggle("mobile-menu");
+      });
+    </script>
+  </body>
+</html>
